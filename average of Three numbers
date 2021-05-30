@@ -1,0 +1,14 @@
+num1=int(input('enter a first number'))
+num2=int(input('enter a 2nd number'))
+num3=int(input('enter a 3rd number'))
+sum=num1+num2+num3
+avg=(num1+num2+num3)/3
+print(sum)
+print('avg of num is %0.2f'%avg)
+
+output::
+enter a first number3
+enter a 2nd number4
+enter a 3rd number5
+12
+avg of num is 4.00
