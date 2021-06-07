@@ -1,0 +1,19 @@
+s=int(input('enter a start nuber')) #small number we give
+e=int(input('enter a endnumber'))#big number
+n=int(input('enter a number'))  #size n
+for i in range(s,e+n,):
+    if i%n==0:
+            print(i,end=' ')
+
+out put::
+
+enter a start nuber10
+enter a endnumber25
+enter a number4
+12 16 20 24 28 
+
+
+enter a start nuber20
+enter a endnumber30
+enter a number3
+21 24 27 30 
