@@ -1,0 +1,31 @@
+n=int(input('enter a  number'))
+C=0
+for i in range(1,(n//2)+1):             # # half itreation we can check
+    
+      if n%i==0:                          # the number                     
+         C+=1
+      if C>1:
+          print(n,'is not a prime')
+      else:
+          print(n,'is a parime')
+        
+
+        
+enter a  number 35
+35 is a parime
+35 is a parime
+35 is a parime
+35 is a parime
+35 is not a prime
+35 is not a prime
+35 is not a prime
+35 is not a prime
+35 is not a prime
+35 is not a prime
+35 is not a prime
+35 is not a prime
+35 is not a prime
+35 is not a prime
+35 is not a prime
+35 is not a prime
+35 is not a prime
